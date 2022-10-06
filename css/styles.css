@@ -9,3 +9,6 @@ body {
 .link {
   text-decoration: none;
 }
+.header-logo > .span {
+  color: rgb(219, 52, 163);
+}
