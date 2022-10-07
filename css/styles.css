@@ -1,3 +1,13 @@
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --header-color: #ececec;
+  --accent-color: --#2196F3;
+  --background-footer-color: #2f303a;
+  --footer-text-color: color: rgba(255, 255, 255, 0.6);
+
+
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -9,3 +19,35 @@ body {
 .link {
   text-decoration: none;
 }
+
+/*---- header------- */
+.header {
+  background-color: palegreen;
+
+}
+
+.header-link:focus,
+.header-link:active {
+  
+}
+
+
+
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/*------ main------- */
+
+/* -----footer------- */
