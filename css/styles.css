@@ -4,12 +4,12 @@
   --header-color: #ececec;
   --accent-color: --#2196F3;
   --background-footer-color: #2f303a;
-  --footer-text-color: color: rgba(255, 255, 255, 0.6);
-
-
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --logo-text-color: #000000;
 }
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
 }
 
 .list {
@@ -23,12 +23,7 @@ body {
 /*---- header------- */
 .header {
   background-color: palegreen;
-
 }
-
-
-
-
 
 .header-logo {
   font-weight: 700;
