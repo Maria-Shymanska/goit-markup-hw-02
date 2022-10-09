@@ -8,6 +8,8 @@
   --logo-text-color: #000000;
   --main-font: Roboto, sans serif;
   --backround-color: #ffffff;
+  --logo-color: #2f303a;
+  --
 }
 body {
   background-color: var(--backround-color-);
@@ -42,21 +44,20 @@ body {
   letter-spacing: 0.02em;
   color: #2196f3;
 }
-.part-one {
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color)
 }
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
-}
-.header-nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color)
 }
 .header-logo {
   font-weight: 500;
@@ -71,7 +72,7 @@ body {
   letter-spacing: 0.02em;
 }
 .first-part {
-  color: #2196f3;
+  color: #188ce8;
 }
 .last-part {
   color: #ffffff;
@@ -84,7 +85,7 @@ body {
 /*------ main------- */
 
 .hero {
-  background-color: aqua;
+  background-color: #2f303a;
 }
 
 .hero-first-title {
@@ -93,22 +94,24 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--logo-text-color);
+  text-transform: uppercase;
 }
 
 .hero-btn {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   background-color: #188ce8;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
+  cursor: pointer;
 }
-.hero-btn:hover \ {
+.hero-btn:hover {
 }
 
 .visually-hidden {
@@ -124,14 +127,16 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* about */
+
+/*----about---- */
+
 .hero-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-text-color)
 }
 .hero-pre-title {
   font-weight: 400;
@@ -146,7 +151,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .hero-pre-title {
   font-weight: 400;
@@ -161,7 +166,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .hero-pre-title {
   font-weight: 400;
@@ -177,7 +182,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .hero-pre-title {
   font-weight: 400;
@@ -192,7 +197,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .about-our-team {
@@ -206,7 +211,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .about-pre-title {
   font-weight: 400;
@@ -262,37 +267,38 @@ body {
 }
 
 /* -----footer------- */
+.footer {
+  background-color: var(--background-footer-color);
+}
 
-.logo-footer {
+.footer-logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
 }
 .first-part {
-  color: #2196f3;
+  color: #188ce8;
 }
 .last-part {
   color: #ffffff;
 }
 
-/*--footer--- */
-
-.footer-logo {
+.footer-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-logo {
+.footer-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-logo {
+.footer-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -301,8 +307,20 @@ body {
 }
 
 /* --portfolio-- */
+
+.body {
+  background-color: #ffffff;
+}
+
 .list {
   list-style: none;
+}
+link {
+  text-decoration: none;
+}
+
+.examples-item:hover .examples-item:focus {
+  color: #188ce8;
 }
 
 .header-logo {
@@ -310,8 +328,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.first-part {
   color: #2196f3;
 }
+.second-part {
+  color: #000000;
+}
+
 .link-header {
   font-weight: 500;
   font-size: 14px;
@@ -338,7 +362,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
 }
 .header-tel {
   font-weight: 500;
@@ -365,7 +388,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .examples-item {
@@ -400,12 +422,9 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.examples-item:hover,
-.examples-item:focus {
-  color: #188ce8;
-}
+
 .hero-title {
-  ont-weight: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -544,7 +563,4 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   background-color: aqua;
-}
-.link {
-  text-decoration: none;
 }
