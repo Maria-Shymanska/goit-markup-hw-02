@@ -38,7 +38,7 @@ body {
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -91,11 +91,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
 }
 
@@ -104,7 +101,6 @@ body {
   font-size: 16px;
   line-height: 30px;
   background-color: #188ce8;
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -112,7 +108,7 @@ body {
 
   color: #ffffff;
 }
-.hero-btn:hover {
+.hero-btn:hover \ {
 }
 
 .visually-hidden {
@@ -132,7 +128,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -140,7 +136,22 @@ body {
 .hero-pre-title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.hero-pre-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -155,26 +166,7 @@ body {
 .hero-pre-title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -182,7 +174,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -190,8 +182,7 @@ body {
 .hero-pre-title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -199,8 +190,7 @@ body {
 .gallery-list {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -208,16 +198,41 @@ body {
 .about-our-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .about-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.about-pre-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.about-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.about-pre-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
+.about-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -225,34 +240,15 @@ body {
 .about-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
+  line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .about-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-}
-.about-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.about-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -260,38 +256,17 @@ body {
 .about-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  text-align: center;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.about-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
 
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.about-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
 /* -----footer------- */
+
 .logo-footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
   letter-spacing: 0.03em;
 }
 .first-part {
@@ -307,25 +282,20 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 .footer-logo {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-logo {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -338,43 +308,42 @@ body {
 .header-logo {
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 .link-header {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
 .link-header {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 .link-header {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
 .header-logo {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 .header-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -395,22 +364,14 @@ body {
 .examples-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .examples-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.examples-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -418,7 +379,7 @@ body {
 .examples-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -426,7 +387,15 @@ body {
 .examples-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.examples-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -438,77 +407,77 @@ body {
 .hero-title {
   ont-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .hero-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .hero-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .hero-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .hero-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .hero-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
@@ -516,63 +485,63 @@ body {
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .hero-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .hero-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 1.66;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .hero-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .lofo-footer-link {
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 .footer-logo {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   background-color: aqua;
 }
