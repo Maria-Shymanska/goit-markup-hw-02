@@ -9,7 +9,6 @@
   --main-font: Roboto, sans serif;
   --backround-color: #ffffff;
   --logo-color: #2f303a;
-  --
 }
 body {
   background-color: var(--backround-color-);
@@ -50,14 +49,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 .header-logo {
   font-weight: 500;
@@ -136,7 +135,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 .hero-pre-title {
   font-weight: 400;
