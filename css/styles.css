@@ -60,7 +60,7 @@ body {
   color: #2196f3;
 }
 .last-part {
-  color: #ffffff;
+  color: #000000;
 }
 .link:hover,
 .link:focus {
@@ -91,8 +91,12 @@ body {
   background-color: #2196f3;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #188ce8;
 }
 
 .visually-hidden {
@@ -118,7 +122,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
-  background-color: ;
 }
 .hero-pre-title {
   font-weight: 400;
@@ -159,14 +162,12 @@ body {
 }
 .about-pre-title {
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 /* -----footer------- */
-.footer {
+footer {
   background-color: var(--background-footer-color);
 }
 
@@ -175,6 +176,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color:#2196f3;
 }
 .first-part {
   color: #2196f3;
@@ -183,18 +185,11 @@ body {
   color: #212121;
 }
 
-.footer-link {
+.link-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.footer-item {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-item {
@@ -204,10 +199,11 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 
 /* --portfolio-- */
 
-.body {
+.hero-title {
   background-color: #ffffff;
 }
 
@@ -216,10 +212,6 @@ body {
 }
 link {
   text-decoration: none;
-}
-
-.examples-item:hover .examples-item:focus {
-  color: #188ce8;
 }
 
 .header-logo {
@@ -242,20 +234,7 @@ link {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.link-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-}
-.link-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
+
 .header-logo {
   font-weight: 500;
   font-size: 14px;
@@ -271,50 +250,26 @@ link {
 }
 
 .examples-item {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.examples-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.examples-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.examples-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.examples-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
+  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
+.examples-item:hover .examples-item:focus {
+  color: #188ce8;
+
+  .hero-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+  }
 }
 .hero-pre-title {
   font-weight: 400;
@@ -322,132 +277,43 @@ link {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
 }
 
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.66;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
+/* --footer--*/
 
-  /* --footer--*/
+footer {
+  background-color: var(--background-footer-color);
 }
-.logo-footer-link {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+
+.footer-logo {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+
+}
+.first-part {
   color: #2196f3;
 }
-.footer-logo {
+.last-part {.
+  color: #212121;
+}
+
+.link-footer {
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
