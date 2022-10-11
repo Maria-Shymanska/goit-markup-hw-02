@@ -57,14 +57,14 @@ body {
   color: var(--secondary-text-color);
 }
 .first-part {
-  color: #188ce8;
+  color: #2196f3;
 }
 .last-part {
   color: #ffffff;
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: #188ce8;
 }
 
 /*------ main------- */
@@ -93,11 +93,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
-
-  .hero-btn:hover
-  .hero-btn:focus {
-  color: #188ce8;
-  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -113,7 +109,7 @@ body {
   overflow: hidden;
 }
 
-/*----about---- */
+/*----hero---- */
 
 .hero-title {
   font-weight: 700;
@@ -122,42 +118,29 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
+  background-color: ;
 }
 .hero-pre-title {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.hero-pre-title {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
 .gallery-list {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  color: var(--backround-color);
+}
+
+/* --team-- */
+
+.our-team {
+  background-color: #f5f4fa;
 }
 
 .about-our-team {
@@ -165,6 +148,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  background-color: #ffffff;
 }
 .about-title {
   font-weight: 500;
@@ -178,52 +162,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
-}
-.about-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-}
-.about-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.about-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.about-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.about-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.about-pre-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* -----footer------- */
@@ -238,10 +177,10 @@ body {
   letter-spacing: 0.03em;
 }
 .first-part {
-  color: #188ce8;
+  color: #2196f3;
 }
 .last-part {
-  color: #ffffff;
+  color: #212121;
 }
 
 .footer-link {
@@ -328,7 +267,6 @@ link {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
 
@@ -497,8 +435,10 @@ link {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
+
+  /* --footer--*/
 }
-.lofo-footer-link {
+.logo-footer-link {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -510,5 +450,4 @@ link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: aqua;
 }
