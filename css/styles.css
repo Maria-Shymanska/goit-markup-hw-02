@@ -42,14 +42,11 @@ body {
   color: #000000;
 }
 
-
-
-
 .current a {
   color: var(--accent-color);
 }
 
-.header-nav-link {
+.header-link {
   font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -58,13 +55,13 @@ body {
   color: var(--main-text-color);
 }
 
-.header-link {
-  font-family: inherit;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: var(--secondary-text-color);
+.header-link-mail {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 
 .header-tel {
@@ -143,8 +140,6 @@ color: var(--secondary-text-color);
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
-
 
 .gallery-list {
   font-size: 36px;
@@ -247,16 +242,9 @@ link {
 }
 .last-part {
   color: #212121;
-
-.link-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
 }
 
-.header-tel {
+.header-link .header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -273,8 +261,7 @@ link {
   background-color: #2196f3;
 }
 
-.btn-main:hover 
-.btn-main:focus {
+.btn-main:hover .btn-main:focus {
   color: #188ce8;
 }
 
@@ -313,14 +300,13 @@ footer {
 .second-part {
   color: #ffffff;
 }
-
-
-.link-footer {
-  font-family: Roboto;
-  font-weight: 400;
+.footer-mail {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .footer-item .footer-link {
@@ -331,8 +317,4 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-item:hover 
-.footer-item:hover {
-color: #2196f3;
 }
