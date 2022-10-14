@@ -57,7 +57,7 @@ body {
 }
 
 .header-nav-link {
-  font-family: Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -66,11 +66,11 @@ body {
 }
 
 .header-link-mail {
-  font-family: 'Roboto';
+  font-family: Roboto sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -113,7 +113,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 
 /* --hero-- */
@@ -264,7 +264,7 @@ link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -287,11 +287,13 @@ link {
   letter-spacing: 0.03em;
   color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .btn-main:hover,
 .btn-main:focus {
   background: #188ce8;
+  color: #ffffff;
 }
 
 .hero-title {
@@ -336,13 +338,22 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.footer-item-link .footer-item-tel {
+.footer-link-mail {
   font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.footer-tel {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
