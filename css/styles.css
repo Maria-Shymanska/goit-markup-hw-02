@@ -205,7 +205,7 @@ body {
 .second-part {
   color: #ffffff;
 }
-.footer-link {
+.footer-link-map {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -303,7 +303,7 @@ link {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--logo-text-color);
 }
 
 .hero-pre-title {
@@ -311,7 +311,7 @@ link {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* --footer--*/
@@ -335,7 +335,7 @@ footer {
   color: #ffffff;
 }
 
-.footer-link {
+.footer-link-map {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -353,5 +353,5 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--footer-text-color);
 }
