@@ -116,8 +116,6 @@ body {
   background-color: #188ce8;
 }
 
-/* --hero-- */
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -148,17 +146,6 @@ body {
   color: var(--secondary-text-color);
 }
 
-.gallery-list {
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-}
-
-.gallery {
-  background-color: #ffffff;
-}
-
 /* --team-- */
 
 .our-team {
@@ -170,7 +157,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  background-color: #ffffff;
 }
 .about-title {
   font-weight: 500;
@@ -180,7 +166,6 @@ body {
   color: var(--main-text-color);
 }
 .about-pre-title {
-  font-weight: 400;
   font-size: 16;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -214,8 +199,7 @@ body {
   color: #ffffff;
 }
 
-.footer-link-mail,
-.footer-tel {
+.footer-link .footer-tel {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -281,7 +265,6 @@ link {
 
 .btn-main {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -343,7 +326,7 @@ footer {
   color: #ffffff;
 }
 
-.footer-link-mail,
+.footer-link,
 .footer-tel {
   font-family: Roboto;
   font-style: normal;
