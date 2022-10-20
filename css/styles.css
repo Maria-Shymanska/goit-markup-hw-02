@@ -116,6 +116,8 @@ body {
   background-color: #188ce8;
 }
 
+/* --benefits-- */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -144,6 +146,16 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+/* --galery-- */
+
+.gallery-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-text-color);
 }
 
 /* --team-- */
@@ -191,7 +203,6 @@ body {
   color: #ffffff;
 }
 .footer-link-map {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.19;
@@ -200,9 +211,6 @@ body {
 }
 
 .footer-link .footer-tel {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -246,7 +254,6 @@ link {
 
 .header-link-mail {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -261,6 +268,7 @@ link {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+
 /* --main-- */
 
 .btn-main {
@@ -269,7 +277,7 @@ link {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
 }
